@@ -1,13 +1,6 @@
 # EdgeDetect — CPU Object Detection with Smart Alerts
 
-Real-time object detection that runs entirely on CPU. Uses **SSDLite320\_MobileNetV3\_Large** (not YOLO) — a lightweight architecture from Google designed for edge devices.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue" />
-  <img src="https://img.shields.io/badge/torch-2.0%2B-orange" />
-  <img src="https://img.shields.io/badge/license-MIT-green" />
-  <img src="https://img.shields.io/badge/CPU%20FPS-30--34-brightgreen" />
-</p>
+Real-time object detection that runs entirely on CPU. Uses **SSDLite320\_MobileNetV3\_Large** — a lightweight architecture from Google designed for edge devices.
 
 ---
 
