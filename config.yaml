@@ -1,0 +1,37 @@
+model:
+  name: ssdlite320_mobilenet_v3_large
+  confidence: 0.55
+  device: cpu
+
+camera:
+  source: 0
+  width: 640
+  height: 480
+  resize_input: 320
+
+alerts:
+  enabled: true
+  classes: []
+  persistence: 3
+  cooldown: 5
+  snapshot: true
+  sound: true
+  console: true
+  log: true
+  snapshot_dir: alerts
+
+zones:
+  enabled: false
+  draw_on_start: false
+  list: []
+
+heatmap:
+  enabled: true
+  decay: 0.97
+  colormap: JET
+
+display:
+  show_video: true
+  fps: true
+  show_all_labels: true
+  font_scale: 0.5
