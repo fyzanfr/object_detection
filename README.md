@@ -116,7 +116,6 @@ Camera ─→ Motion Gate ─→ SSDLite Model ─→ Tracker ─→ Zone Check 
 | `Heatmap` | `detect.py` | `Heatmap` | Exponential-decay activity overlay |
 | `DetectionApp` | `detect.py` | `DetectionApp` | Main loop & orchestration |
 
-See [GUIDE.md](GUIDE.md) for a deep dive into each component's internals.
 
 ---
 
